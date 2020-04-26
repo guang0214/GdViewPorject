@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="GdTitleBar">
+        <attr name="showLeftIcon" format="boolean"/>
+        <attr name="titleTextColor" format="color"/>
+        <attr name="titlebarBg" format="color"/>
+        <attr name="title" format="string"/>
+        <attr name="rightImage01" format="reference"/>
+        <attr name="rightImage02" format="reference"/>
+        <attr name="rightBtn01" format="string"/>
+        <attr name="rightBtn02" format="string"/>
+        <attr name="rightBtnColor01" format="color"/>
+        <attr name="rightBtnColor02" format="color"/>
+    </declare-styleable>
+</resources>

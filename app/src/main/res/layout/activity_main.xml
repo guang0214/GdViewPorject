@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <com.gd.gdlibrary.view.GdTitleBar
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/gd_titlebar_height"
+        app:showLeftIcon="true"
+        app:title="我爱我的祖国"
+        app:rightImage01="@drawable/common_addressbook_icon_active"
+        app:rightBtn01="签到"
+        app:rightBtnColor01="#ff0000"
+        />
+
+    <TextView
+        android:text="test"
+        android:background="#00ff00"
+        android:layout_width="@dimen/gd_360dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/button"
+        android:text="输入支付密码"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_finger"
+        android:text="指纹验证"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.gd.gdlibrary.view.TestView
+        android:background="#ff0000"
+        android:id="@+id/test_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
